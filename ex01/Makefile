@@ -15,7 +15,8 @@ OBJDIR =  		./objs
 INCDIR = 		./incs
 
 #Files
-FILES =			ft_phone_book.cpp
+FILES =			ft_phone_book.cpp \
+				ft_contact.cpp
 
 #Srcs
 SRCS = 			$(foreach FILE, $(FILES), $(shell find $(SRCDIR) -name $(FILE)))
